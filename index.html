@@ -25,6 +25,15 @@
             text-align: center;
         }
     </style>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+        window.OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+            OneSignal.init({
+                appId: "42e390b7-0cf3-4e12-9863-546267992ce9",
+            });
+        });
+    </script>
 </head>
 <body>
     <main>
